@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navegation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;  /* Espaçamento do elemento em relação a ele mesmo */
+}
+
+/* Para manipular apenas o elemento da tag img dentro da class logo. */
+.sidebar_navegation .logo img{
+    width: 80px;
+}
+
+.sidebar_navegation .logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+.sidebar nav ul li{
+    padding: 10px 0px; /* Primeiro valor é cima e baixo, o segundo é direita e esquerda. */
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
